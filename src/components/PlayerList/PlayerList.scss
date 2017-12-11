@@ -1,0 +1,14 @@
+@import '../../assets/styles/base/_variables.scss';
+@import '../../assets/styles/base/_mixins.scss';
+
+.property-list {
+  margin: 0 auto;
+  width: 80%;
+
+  @include gridSmall {
+    width: 95%;
+  }
+  @include gridMedium {
+    width: 90%;
+  }
+}

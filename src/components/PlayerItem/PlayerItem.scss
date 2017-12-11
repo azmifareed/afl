@@ -1,0 +1,97 @@
+@import "../../assets/styles/base/_mixins.scss";
+@import "../../assets/styles/base/_variables.scss";
+
+$rowHeight: 50px;
+
+.player {
+  background-color: #fff;
+  padding: 10px 15px;
+  background: #f4f4f4;
+  border: 1px solid #e4e4e4;
+  margin-bottom: 10px;
+
+  .player-ranking {
+    float: left;
+    width: $rowHeight;
+    height: $rowHeight;
+    line-height: $rowHeight;
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(150deg,$themeBlueColor 10%, #66adff 90%);
+    margin-right: 20px;
+
+    @include gridSmall {
+      display: block;
+      float: left;
+    }
+  }
+  .player-name {
+    float: left;
+    width: 30%;
+    line-height: $rowHeight;
+    @include gridSmall {
+      width: auto;
+      margin-bottom: 5px;
+      line-height: normal;
+      float: none;
+      display: inline-block;
+    }
+  }
+  .player-team {
+    float: left;
+    width: 30%;
+    @include gridSmall {
+      width: auto;
+      float: right;
+    }
+    @include gridMedium {
+      width: 70px;
+    }
+    .team-logo {
+      float: left;
+      width: 30px;
+      height: 30px;
+      margin: 10px 10px 0 0;
+      @include gridSmall {
+        width: 50px;
+        height: 50px;
+        margin: 0;
+      }
+      @include gridMedium {
+        width: 50px;
+        height: 50px;
+        margin: 0 30px 0 0;
+      }
+    }
+    .team-name {
+      float: left;
+      line-height: $rowHeight;
+      @include gridSmall {
+        display: none;
+      }
+      @include gridMedium {
+        display: none;
+      }
+    }
+  }
+  .player-position {
+    float: left;
+    line-height: $rowHeight;
+    width: 25%;
+    @include gridSmall {
+      width: auto;
+      display: block;
+      line-height: normal;
+      float: none;
+    }
+  }
+
+  @include gridSmall {
+    clear: both;
+    font-size: $smallSize;
+  }
+
+  @include gridMedium {
+    font-size: $smallSize;
+  }
+}

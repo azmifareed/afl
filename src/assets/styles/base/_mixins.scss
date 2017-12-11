@@ -1,0 +1,18 @@
+@mixin gridSmall {
+  @media (max-width: #{$gridSmall - 1px}) {
+    @content;
+  }
+}
+
+@mixin gridMedium {
+  @media (min-width: #{$gridSmall}) and (max-width: #{$gridMedium - 1px}) {
+    @content;
+  }
+}
+
+@mixin gridLarge {
+  @media (min-width: #{$gridLarge})  {
+    @content;
+  }
+}
+

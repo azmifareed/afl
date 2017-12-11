@@ -1,0 +1,71 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 1.6em;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.3; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+ul li {
+  margin: 0;
+  padding: 0; }
+
+ol {
+  margin: 0;
+  padding: 0; }
+
+p {
+  padding: 0;
+  margin: 0 0 10px; }
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0 0 20px;
+  font-weight: normal; }
+
+.club-logo, .logo-bul, .logo-gee, .logo-syd, .logo-por, .logo-col {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  display: inline-block; }
+
+.logo-bul {
+  background: url("../images/club-logos/icon-club-bl.svg");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat; }
+
+.logo-gee {
+  background: url("../images/club-logos/icon-club-geel.svg");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat; }
+
+.logo-syd {
+  background: url("../images/club-logos/icon-club-syd.svg");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat; }
+
+.logo-por {
+  background: url("../images/club-logos/icon-club-port.svg");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat; }
+
+.logo-col {
+  background: url("../images/club-logos/icon-club-coll.svg");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat; }
+
+.clearfix {
+  clear: both; }

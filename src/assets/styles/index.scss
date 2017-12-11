@@ -1,0 +1,55 @@
+@import './base/variables';
+@import './base/mixins';
+@import './base/reset';
+
+
+.club-logo {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  display: inline-block;
+}
+
+.logo-bul {
+  @extend .club-logo;
+  background: url('../images/club-logos/icon-club-bl.svg');
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.logo-gee {
+  @extend .club-logo;
+  background: url('../images/club-logos/icon-club-geel.svg');
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.logo-syd {
+  @extend .club-logo;
+  background: url('../images/club-logos/icon-club-syd.svg');
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.logo-por {
+  @extend .club-logo;
+  background: url('../images/club-logos/icon-club-port.svg');
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.logo-col {
+  @extend .club-logo;
+  background: url('../images/club-logos/icon-club-coll.svg');
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.clearfix {
+  clear: both;
+}
